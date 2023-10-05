@@ -16,7 +16,7 @@ function Portfolio() {
 					<div className="text-wrapper w-full">
 						<h1 className="title">Portfolio</h1>
 						<p className="description">
-							Incididunt in cillum magna occaecat nisi qui in.
+						Welcome to David's Portfolio. Dive into a curated collection of my most noteworthy projects, professional experiences, and skills. From web development to graphic design, explore the breadth and depth of my expertise. Let's collaborate and bring your vision to life.
 						</p>
 
 						<div className="portfolio-wrapper">

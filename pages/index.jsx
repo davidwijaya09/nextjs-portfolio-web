@@ -14,8 +14,8 @@ function Home() {
       <section className="hero">
         <div className="container">
           <div className="text-wrapper">
-            <h1 className="title">Hallo,
-              I'am David Wijaya</h1>
+            <h1 className="title">Hallo,</h1>
+            <h1 className="title">I'am David Wijaya</h1>
             <p className="description">I'm a specialist in web and mobile application development with a deep passion for IT and user interface design.</p>
 
             <Link href="/contact"><a className="cta">Contact</a></Link>
