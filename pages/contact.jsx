@@ -20,7 +20,10 @@ function Contact() {
 						</p>
 						<ul className="contact-links">
 							<li className="contact-item">Email: davidwijaya0801@gmail.com</li>
-							<li className="contact-item">Phone: +6285710621032</li>
+							<li className="contact-item">Phone: +6285710621032 (WA)</li>
+							<li className="contact-item">
+								Linkedin: <a href="https://www.linkedin.com/in/davidwijaya09/" target="_blank" rel="noopener noreferrer">davidwijaya09</a>
+							</li>
 						</ul>
 					</div>
 				</div>

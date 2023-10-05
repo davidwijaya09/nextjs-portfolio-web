@@ -27,13 +27,13 @@ function Portfolio() {
 								<div className="portfolio-category">Mobile Dev</div>
 							</div>
 							<div className="portfolio-item">
-								<img src="/beveragebliss.jpg" className="portfolio-image" />
+								<img src="/beveragebliss.png" className="portfolio-image" />
 
 								<h4 className="portfolio-name">Beverage Bliss</h4>
 								<div className="portfolio-category">Web Dev</div>
 							</div>
 							<div className="portfolio-item">
-								<img src="/subway-mobile.jpg" className="portfolio-image" />
+								<img src="/subway-mobile.png" className="portfolio-image" />
 
 								<h4 className="portfolio-name">Subway Mobile App</h4>
 								<div className="portfolio-category">Mobile Dev</div>
