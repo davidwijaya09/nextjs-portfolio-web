@@ -11,8 +11,10 @@ function About() {
 
 			<Navbar />
 
-			<section className="hero">
-				<div className="container">
+			<section className="hero2">
+				<div className="flex-container">
+					<img src="/David_Wijaya.jpeg" alt="David Wijaya" className="profile-picture" />
+
 					<div className="text-wrapper w-full">
 						<h1 className="title">About</h1>
 						<p className="description">
