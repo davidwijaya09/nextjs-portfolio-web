@@ -18,7 +18,7 @@ function Home() {
           <div className="text-wrapper">
             <h1 className="title">Hallo,</h1>
             <h1 className="title">I'am David Wijaya</h1>
-            <p className="description">I'm a specialist in web and mobile application development with a deep passion for IT and user interface design.</p>
+            <p className="description">Specialized in web and mobile application development with a deep passion for IT and user interface design.</p>
 
             <Link href="/contact"><a className="cta">Contact</a></Link>
           </div>
