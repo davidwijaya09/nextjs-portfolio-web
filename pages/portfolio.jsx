@@ -16,7 +16,7 @@ function Portfolio() {
 					<div className="text-wrapper w-full">
 						<h1 className="title">Portfolio</h1>
 						<p className="description">
-							Welcome to David's Portfolio. Dive into a curated collection of my most noteworthy projects, professional experiences, and skills.
+							Welcome to David's Portfolio, below are projects that I have worked on.
 						</p>
 
 						<div className="portfolio-wrapper" style={{ marginTop: '20px' }}>
