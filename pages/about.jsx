@@ -18,7 +18,8 @@ function About() {
 					<div className="text-wrapper w-full">
 						<h1 className="title">About</h1>
 						<p className="description">
-							I'm a specialist in web and mobile application development with a deep passion for IT and user interface design. I've utilized my skills, knowledge, and expertise to enhance software and user experiences for various companies and clients. Eager to leverage my abilities to contribute to a company's successful IT solutions development.
+							Hello, I'm David. I started learning web development in November 2019. After that, I worked and continue my studies in 2023 by joining a full-stack JavaScript bootcamp at Hactiv8 in Jakarta for upgrade my skills, then started watching a bunch of youtube videos
+							to explore more about web development especially frontend development.
 						</p>
 					</div>
 				</div>
