@@ -216,3 +216,22 @@ a[href] {
     text-align: right;
   }
 }
+
+.profile-picture {
+  transition: transform 0.3s ease-in-out; /* smooth transition */
+  display: block; /* Make sure it's a block element */
+}
+
+.profile-picture:hover {
+  transform: scale(1.1); /* zoom in by 10% on hover */
+}
+
+.portfolio-image {
+  transition: transform 0.4s ease-in-out;
+  display: block;
+  transform-origin: center;
+}
+
+.portfolio-image:hover {
+  transform: scale(2.1); /* or any other zoom level you prefer */
+}
