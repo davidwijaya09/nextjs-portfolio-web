@@ -52,12 +52,15 @@ function Contact() {
 						</p>
 						<ul className="contact-links">
 							<li className="contact-item">Email: davidwijaya0801@gmail.com</li>
-							<li className="contact-item">Phone: +62-8571-0621-032 (WA)</li>
+							<li className="contact-item">Phone: +62-8571-0621-032 (wa)</li>
 							<li className="contact-item">
 								Linkedin: <a href="https://www.linkedin.com/in/davidwijaya09/" target="_blank" rel="noopener noreferrer">davidwijaya09</a>
 							</li>
 							<li className="contact-item">
-								Portfolio: <a href="https://www.canva.com/design/DAFwekXiVGA/7EyLjBFat_tmJcy_7bdnZQ/view?utm_content=DAFwekXiVGA&utm_campaign=designshare&utm_medium=link&utm_source=viewer" target="_blank" rel="noopener noreferrer">David's Portfolio</a>
+								Portfolio: <a href="https://www.canva.com/design/DAFwekXiVGA/7EyLjBFat_tmJcy_7bdnZQ/view?utm_content=DAFwekXiVGA&utm_campaign=designshare&utm_medium=link&utm_source=viewer" target="_blank" rel="noopener noreferrer">david's portfolio</a>
+							</li>
+							<li className="contact-item">
+								Article: <a href="https://medium.com/@davidwijaya09" target="_blank" rel="noopener noreferrer">david's medium</a>
 							</li>
 						</ul>
 					</div>
