@@ -25,7 +25,7 @@ function Contact() {
 								Linkedin: <a href="https://www.linkedin.com/in/davidwijaya09/" target="_blank" rel="noopener noreferrer">davidwijaya09</a>
 							</li>
 							<li className="contact-item">
-								Portfolio: <a href="https://shorturl.at/BJT39" target="_blank" rel="noopener noreferrer">David's Portfolio</a>
+								Portfolio: <a href="https://shorturl.at/yGHT2" target="_blank" rel="noopener noreferrer">David's Portfolio</a>
 							</li>
 						</ul>
 					</div>
