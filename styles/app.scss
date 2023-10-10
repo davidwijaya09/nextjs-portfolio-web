@@ -65,8 +65,8 @@ a[href] {
 }
 
 .hero {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 
   .container {
     display: flex;
@@ -227,11 +227,189 @@ a[href] {
 }
 
 .portfolio-image {
-  transition: transform 0.4s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   display: block;
   transform-origin: center;
+  transform: scale(1); /* This sets the normal scale */
 }
 
 .portfolio-image:hover {
-  transform: scale(2.1); /* or any other zoom level you prefer */
+  transform: scale(1.1); /* or any other zoom level you prefer */
+}
+
+/* Default light theme styles */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark theme styles */
+
+[data-theme="dark"] {
+  background-color: #222222;
+  color: #ffffff;
+
+  a[href] {
+    color: #ffffff; // Change link color in dark mode
+  }
+
+  .navbar {
+    background-color: #222222; // Add a darker navbar background for dark mode
+
+    .nav-item.active:after {
+      background-color: #ffffff; // Change the active underline to white
+    }
+  }
+  .title {
+    color: #ffffff; /* This will make the "Portfolio" title turn white in dark mode */
+  }
+
+  .description {
+    color: #ffffff; /* This will make the "Portfolio" title turn white in dark mode */
+  }
+
+  .hero {
+    background-color: #222222; // Dark background for the hero section
+  }
+
+  .flex-container {
+    background-color: #222222; // Dark background for the hero section
+  }
+
+  .hero-contact {
+    background-color: #222222; // Dark background for the hero section
+  }
+
+  .portfolio-item {
+    background-color: #222222; // Darker background for each portfolio item
+    border: 1px solid #222222; // Maybe add a border for contrast
+  }
+
+  .portfolio-name {
+    color: #cccccc; // Lighter text color for portfolio name
+  }
+
+  .portfolio-category {
+    color: #aaaaaa; // Lighter color for the category
+  }
+
+  .contact-links {
+    color: #ffffff; // Lighter color for the category
+  }
+
+  // ... Add more styles for other elements as required
+}
+
+/* Switch button */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+
+.slider:before {
+  content: attr(data-unchecked);
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  content: attr(data-checked);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.theme-toggle-container {
+  position: fixed;
+  top: 20px; // Adjust as needed
+  right: 20px; // Adjust as needed
+  z-index: 1000; // Ensures the toggle remains above other content
+}
+
+.hero-contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .text-wrapper {
+    width: 50%;
+
+    &.w-full {
+      width: 100%;
+    }
+
+    .title {
+      font-size: 48px;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+
+    .description {
+      font-size: 22px;
+      line-height: 40px;
+    }
+
+    .cta {
+      display: inline-block;
+      padding: 15px 45px;
+      margin-top: 20px;
+      background-color: #000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: transform 0.3s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  .image-wrapper {
+    width: 50%;
+    text-align: right;
+  }
 }

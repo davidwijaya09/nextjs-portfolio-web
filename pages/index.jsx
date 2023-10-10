@@ -1,10 +1,30 @@
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
 import Head from 'next/head'
+import { useState, useEffect } from 'react';
+
 <link rel="icon" href="/favicon.ico" />
 
-
 function Home() {
+  const [theme, setTheme] = useState('light');
+
+  const toggleTheme = () => {
+    if (theme === 'light') {
+      setTheme('dark');
+      document.documentElement.setAttribute('data-theme', 'dark');
+    } else {
+      setTheme('light');
+      document.documentElement.setAttribute('data-theme', 'light');
+    }
+  };
+
+  useEffect(() => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    if (currentTheme) {
+      setTheme(currentTheme);
+    }
+  }, []);
+
   return (
     <>
       <Head>
@@ -14,6 +34,17 @@ function Home() {
       <Navbar />
 
       <section className="hero">
+        <div className="theme-toggle-container">
+          <label className="switch">
+            <input
+              type="checkbox"
+              onChange={toggleTheme}
+              checked={theme === 'dark'}
+            />
+            <span className="slider round" data-checked="🌙" data-unchecked="☀️"></span>
+          </label>
+        </div>
+
         <div className="container">
           <div className="text-wrapper">
             <h1 className="title">Hello,</h1>

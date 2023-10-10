@@ -1,8 +1,28 @@
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
 import Head from 'next/head'
+import { useState, useEffect } from 'react';
 
 function About() {
+	const [theme, setTheme] = useState('light');
+
+	const toggleTheme = () => {
+		if (theme === 'light') {
+			setTheme('dark');
+			document.documentElement.setAttribute('data-theme', 'dark');
+		} else {
+			setTheme('light');
+			document.documentElement.setAttribute('data-theme', 'light');
+		}
+	};
+
+	useEffect(() => {
+		const currentTheme = document.documentElement.getAttribute('data-theme');
+		if (currentTheme) {
+			setTheme(currentTheme);
+		}
+	}, []);
+
 	return (
 		<>
 			<Head>
@@ -12,6 +32,16 @@ function About() {
 			<Navbar />
 
 			<section className="hero2">
+				<div className="theme-toggle-container">
+					<label className="switch">
+						<input
+							type="checkbox"
+							onChange={toggleTheme}
+							checked={theme === 'dark'}
+						/>
+						<span className="slider round" data-checked="🌙" data-unchecked="☀️"></span>
+					</label>
+				</div>
 				<div className="flex-container">
 					<img src="/David_Wijaya.jpeg" alt="David Wijaya" className="profile-picture" />
 
