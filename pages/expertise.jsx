@@ -57,12 +57,12 @@ function Expertise() {
 							<div className="expertise-item">
 								<FaReact size={48} />
 								<h3>Frontend Dev - React, NextJS</h3>
-								<p>Passionate about UI/UX. Over 4 years of development experience in HTML, CSS, JS, React and NextJS frameworks.</p>
+								<p>Passionate about UI/UX. Over 3 years of development experience in HTML, CSS, JS, React and NextJS frameworks.</p>
 							</div>
 							<div className="expertise-item">
 								<FaMobileAlt size={48} />
-								<h3>Flutter Dev - Android, iOS</h3>
-								<p>Skilled in developing hybrid mobile apps and cross-platform solutions using the Flutter framework.</p>
+								<h3>React Native Developer - Android, iOS</h3>
+								<p>Skilled in developing hybrid mobile apps and cross-platform solutions using the React Native framework.</p>
 							</div>
 						</div>
 					</div>

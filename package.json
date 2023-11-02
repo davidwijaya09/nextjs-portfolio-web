@@ -14,5 +14,18 @@
     "react-icons": "^4.11.0",
     "sass": "^1.69.1",
     "three": "^0.157.0"
-  }
+  },
+  "description": "nextjs portfolio web for personal",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidwijaya09/nextjs-portfolio-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidwijaya09/nextjs-portfolio-web/issues"
+  },
+  "homepage": "https://github.com/davidwijaya09/nextjs-portfolio-web#readme"
 }
